@@ -1,7 +1,7 @@
-#six-week-app
+<h1>six-week-app</h1>
 This app for curs https://courses.openedu.ru/courses/course-v1:ITMOUniversity+NODEJS+spring_2021/course/
 
-#Практика недели 6 Задание недели 6
+Практика недели 6 Задание недели 6
 
 Цель Разработать веб-приложение с использованием фреймворка Express.
 
