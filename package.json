@@ -7,6 +7,7 @@
     "script": "node app",
     "dev": "nodemon app"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kirillakrill/six-week-app.git"
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/Kirillakrill/six-week-app#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1"
   },
