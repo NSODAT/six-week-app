@@ -1,10 +1,10 @@
-const [{ Server: h1 }, x] = [require('http'), require('express'), require('body-parser')];
+const [{ Server: h1 }, x] = [require('http'), require('express'), require('body-parser'), require('fs'), require('crypto')];
 
 const indexRouter = require('./index');
 
 const mw0 = (r, rs, n) => rs.status(200).set(hu) && n();
 const Router = x.Router();
-const PORT = 4321;
+const PORT = 8080;
 const { log } = console;
 const hu = { 
     'Content-Type': 'text/html; charset=utf-8',
